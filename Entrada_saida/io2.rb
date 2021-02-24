@@ -1,0 +1,1 @@
+p File.readlines("Files/teste.txt")
