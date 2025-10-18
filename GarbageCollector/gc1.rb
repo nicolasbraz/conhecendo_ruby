@@ -4,6 +4,7 @@ end
 t1 = gc.new 
 t2 = gc.new 
 t3 = gc.new 
+t4 = gc.new
 
 count = ObjectSpace.each_object(gc) do |object| 
   puts object 
