@@ -12,7 +12,7 @@ end
 
 puts "#{count} objectos encontrados"
 
-t2 = nil 
+t1 = nil 
 GC.start 
 
 count = ObjectSpace.each_object(gc) do |object|
