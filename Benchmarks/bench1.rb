@@ -4,7 +4,7 @@ require "parallel"
 Benchmark.bm do |bm|
   bm.report do 
     Parallel.map 1..30, in_threads: 4 do |nr|
-      15.times {|t| sleep rand; }
+      20.times {|t| sleep rand; }
     end
   end
 end
